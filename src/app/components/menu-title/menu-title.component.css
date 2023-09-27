@@ -3,11 +3,11 @@
 }
 
 .container_menu-title > h1 {
- margin: 15px auto;
- font-size: 150px;
- display: flex;
- font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
- justify-content: center;
+  margin: 15px auto;
+  font-size: 150px;
+  display: flex;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  justify-content: center;
 }
 
 .container_menu-title > hr {
