@@ -3,11 +3,11 @@
     <img src="{{ photoCover }}" alt="img placeholder" height="200px" width="">
   </div>
   <div class="big-card__title">
-    <h1><a href="#">{{ cardTitle }}
+    <h1><a [routerLink]="['content', Id]">{{ cardTitle }}
     </a></h1>
   </div>
   <div class="big-card__description">
-    <p><a>{{ cardDescription }}</a></p>
+    <p><a [routerLink]="['content', Id]">{{ cardDescription }}</a></p>
   </div>
 </div>
 
